@@ -11,7 +11,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "node node/postinstall.js"
+    "postinstall": "sh -ex postinstall"
   },
   "dependencies": {
     "chalk": "^0.4.0",
