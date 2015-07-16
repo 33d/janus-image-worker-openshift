@@ -115,8 +115,8 @@ void recompress_mozjpeg(s_compress_options *compress_opts)
   cinfo_out.scan_info = NULL;
   cinfo_out.num_scans = 0;
 
-  cinfo_out.use_moz_defaults = 1;
-  cinfo_out.optimize_scans = 0;
+  /* cinfo_out.use_moz_defaults = 1; */
+  /* cinfo_out.optimize_scans = 0; */
 
   int new_quality = compute_new_quality(compress_opts, quality);
 
